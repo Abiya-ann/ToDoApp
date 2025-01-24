@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    background-color:  #056679;
+    font-family: sans-serif;
+}
+h1{
+    margin:0;
+    margin-bottom:15px;
+    color: #b3acac;
+}
+p{
+    color: #b3acac; 
+    text-align: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+.todo-container{
+    margin:auto;
+    margin-top:30px;
+   width:350px;
+    text-align: center;
+   
+}
+
+
+.input-section input{   /*styling input*/
+    border-radius:10px;
+    border:1px solid #818080;;
+    width:100%;
+    padding:14px;
+    box-sizing:border-box;
+    background-color: #055565;
+    outline:none;
+    color:silver;
+   
+
+}
+
+.input-section{
+    background-color:#055565; /*to give same bc to todoapp and enter items*/
+    padding: 18px;
+    border-radius:10px;
+    box-shadow: 0 5px 6px #141414;
+}
+input::placeholder{
+    color:#818080;
+
+}
+
+ul{
+    text-align:left;
+    padding:0;
+    color:#818080;
+  
+}
+ul li{
+    list-style:none;
+    background-color: #055565;
+    padding:15px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    box-shadow: 0 4px 6px #00000066;
+    display:flex;
+}
+ul li i{
+    text-align:right;
+    flex:1;
+    cursor:pointer;
+}
